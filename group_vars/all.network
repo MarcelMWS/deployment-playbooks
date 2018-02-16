@@ -5,11 +5,12 @@ ssh_root:
     - "{{ lookup('file', 'files/admins.pub') }}"
 
 snmp_syslocation: "EU"
-snmp_ipsubnet:    "10.0.0.0/24"
+snmp_ipsubnet:    "172.31.0.0/20"
 
 nameservers:
   - "8.8.8.8"
   - "8.8.4.4"
+  - "0.0.0.0"
 
 ntpservers:
   - "server 0.de.pool.ntp.org"
