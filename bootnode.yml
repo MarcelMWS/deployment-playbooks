@@ -7,7 +7,7 @@
     ec2_group:
       ec2_access_key: "{{ access_key }}"
       ec2_secret_key: "{{ secret_key }}"
-      name: bootnode-security
+      name: bootnode2-security
       description: "Default security group"
       region: "{{ region }}"
 #      purge_rules_egress: true
